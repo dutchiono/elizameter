@@ -1,0 +1,15 @@
+{
+  "name": "elizameter",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Rainmeter widgets for Milady / elizaOS.",
+  "workspaces": [
+    "plugin/@elizameter/*"
+  ],
+  "scripts": {
+    "build": "cd plugin/@elizameter/plugin-widgets && bun run build",
+    "test": "cd plugin/@elizameter/plugin-widgets && bun run test",
+    "install:local": "pwsh -File ./install.ps1"
+  },
+  "license": "MIT"
+}
